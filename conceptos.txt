@@ -1,0 +1,40 @@
+Git es una herramienta de software que ayuda a los desarrolladores
+a trabajar juntos en proyectos de código abierto o privado,
+manteniendo un registro de los cambios realizados en los archivos
+del proyecto a lo largo del tiempo. Permite a los equipos colaborar
+de manera eficiente y controlar las diferentes versiones del código.
+
+1. Repositorio (Repository): Es el lugar donde se almacena el código 
+de un proyecto. Puede ser local (en tu máquina) o remoto (en un servidor).
+ Un repositorio remoto común es GitHub o GitLab.
+
+2. Commit: Es un conjunto de cambios que se guardan en el repositorio. 
+Cada commit tiene un mensaje que describe los cambios realizados.
+
+3. Branch (Rama): Es una línea de desarrollo independiente 
+que se ramifica desde el flujo principal del código (normalmente 
+desde la rama "master" o "main"). 
+Es útil para trabajar en nuevas características o solucionar 
+problemas sin afectar directamente al código principal.
+
+4. Merge (Combinar): Es el proceso de integrar los cambios 
+una rama a otra. Por ejemplo, fusionar una rama de características
+ a la rama principal.
+
+5. Pull Request (Solicitud de extracción): Es una solicitud para fusionar 
+cambios de una rama a otra (generalmente de una rama de características a 
+la rama principal). Permite revisar los cambios antes de combinarlos.
+
+6. Fork: Es una copia independiente de un repositorio. Se utiliza 
+comúnmente en plataformas de desarrollo colaborativo como GitHub, 
+donde los usuarios pueden bifurcar un proyecto para contribuir con cambios
+ sin afectar el repositorio original.
+
+7. Clone (Clonar): Es hacer una copia local 
+de un repositorio remoto en tu máquina.
+
+8. Pull (Tirar): Es obtener cambios del repositorio 
+remoto y fusionarlos en tu copia local.
+
+9. Push (Empujar): Es enviar tus cambios 
+locales al repositorio remoto.

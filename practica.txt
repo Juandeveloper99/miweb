@@ -1,0 +1,128 @@
+Paso 1
+instalar git
+
+Paso 2
+utlizar la terminal proporcionada por Git(Git bach)
+
+Paso 3
+verificar si tenemos instalado correctamente git
+
+git --version
+
+Paso 4
+configurar git
+
+git config --global user.name "nombre_del_usuario"
+
+git config --global user.email user@gmail.com
+
+nota: asegurarse de tener instalado "visual studio code"
+
+git config --global core.editor "code --wait"
+
+git config --global -e 
+
+se abrira visual studio code*
+
+git config --global core.autocrlf true
+
+Paso 5
+Ya en la terminal vamos navegar asta la carpeta donde vamos a crear 
+el archivo:
+
+utilizando "cd" para navegar asta la caperta o directorio predeterminado donde queremos
+almecenar la carpeta del archivo,
+
+Ej:
+cd documents
+
+Paso 6
+Crear la carpeta del archivo.
+
+ya en la carpeta predeterminada es hora de crear el archivo utilizando "mkdir"
+
+Ej:
+mkdir nombre de la carpeta
+
+Paso 7
+Recordemos que tenemos VSCODE abierto y vamos a crear un archivo de texto con el nombre que tu
+desees y que termine en ".txt"
+
+Paso 8
+Dentro del archivo de texto escribe el texto con que vas a trabajar
+
+Paso 9
+Utilizar "Ctrl + S" para guardar las modificaciones del archivo.
+
+Paso 10
+Volvemos a la consola y vamos a utilizar "git add" para que git le de seguimiento a nuestro archivo creado".
+
+Ej: 
+git add nombre_de_nuestro_archivo.txt
+
+Paso 11
+ahora vamos a hacer un "commit".
+
+Ej:
+
+git commit -m "texto_de_agregacion"
+
+
+Paso 12 
+Vamos a agregar una nueva rama o Branch, esto para hacer modificacioones 
+sin correr el riego de perder el archivo principal.
+
+Ej: 
+git checkout -b nombre_de_la_rama_nueva
+
+git branch
+
+Paso 13
+
+Ahora vamos a agregar las modificaciones del archivo.
+
+git add nombre_del_archivo
+
+git commit -m "nuevo_branch_agregado"
+
+Paso 14
+Ahora traeremos los cambios de "rama_nueva" a la rama principal.
+
+Ej:
+git checkout main (Estamos de regreso en la ram principal pero sin las modificaciones)
+
+git merge rama_nueva 
+
+Nota:ahora si quieres verificar los datos utiliza "cat".
+
+Ej:
+cat nombre_del_archivo
+
+Paso 15
+Es hora de subirlo a GitHub.
+
+Paso 16
+Crear una cuenta en github.
+
+Paso 17
+Nota: a este punto tu consola deve esta llena de codigo, para limpiarla puedes utilizar
+"clear" y automaticamente se va limpiar toda tu consola.
+
+Escribir esta linea de codigo en la consola: 
+git remote add origin https://github.com/Juandeveloper99/paste.
+
+git push -u origin main 
+
+Paso 18
+Ahora github nos dara una clave de acceso de 6 digitos y se nos abrira una ventana donde los colocaremos.
+
+Paso 19 
+Luego de eso refrescamos la pagina de github y ya estara nuestro repositorio subido.
+
+Paso 20 
+En caso de que quieras seguir editando los archivos del repositorio siempre que edites 
+utiliza:
+
+"git add" para agregar el archivo nuevo 
+"git commit -m" para agregar los cambios 
+"git push -u origin main" para subir la rama principal a github
